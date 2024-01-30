@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1', router);
 
 app.get('/', async (req, res) => {
-  res.send('Welcome to Demo Server application');
+  res.send('Welcome to ECom Api For AyyKori Task Server ');
 });
 
 //client error handler
